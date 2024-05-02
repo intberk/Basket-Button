@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: grey;
+}
+.box{
+  background-color: white;
+  color: black;
+  font-family:sans-serif;
+  margin: 0 20px;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+.box:hover{
+  transform: scale(0.9);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: red;
+  background-color: white;
+  opacity: 0.9;
+}
+.box .basket {
+  background-color: red;
+  position: absolute;
+  top: -13px;
+  right: -10px;
+  padding: 3px 10px;
+  border-radius: 50%;
+  border: 3px solid white;
+  color: white;
+}
+/* .box .basket:hover{
+  color: white;
+  background-color: red;
+} */
